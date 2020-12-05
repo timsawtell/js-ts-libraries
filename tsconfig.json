@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./build",
+        "sourceMap": false,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es2018",
+        "jsx": "react",
+        "lib": ["es5", "es6", "dom"],
+        "skipLibCheck": true,
+        "strict": true,
+        "allowJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictNullChecks": true
+    }
+}

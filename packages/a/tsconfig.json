@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "sourceMap": false,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "esnext",
+        "jsx": "react",
+        "lib": ["es5", "es6", "dom"],
+        "skipLibCheck": true,
+        "strict": true,
+        "allowJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictNullChecks": true,
+        "declaration": true
+    }
+}
