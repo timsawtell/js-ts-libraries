@@ -1,17 +1,6 @@
 {
+    "extends": "../../tsconfig",
     "compilerOptions": {
-        "outDir": "./dist",
-        "sourceMap": false,
-        "noImplicitAny": true,
-        "module": "commonjs",
-        "target": "esnext",
-        "jsx": "react",
-        "lib": ["ESNext"],
-        "skipLibCheck": true,
-        "strict": true,
-        "allowJs": true,
-        "forceConsistentCasingInFileNames": true,
-        "strictNullChecks": true,
-        "declaration": true
+        "outDir": "dist"
     }
 }
