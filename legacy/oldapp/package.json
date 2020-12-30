@@ -6,5 +6,4 @@
     "dependencies": {
         "a": "file:../../packages/a"
     }
-  }
-  
+}
