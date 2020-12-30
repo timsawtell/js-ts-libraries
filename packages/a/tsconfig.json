@@ -6,7 +6,7 @@
         "module": "commonjs",
         "target": "esnext",
         "jsx": "react",
-        "lib": ["es5", "es6", "dom"],
+        "lib": ["ESNext"],
         "skipLibCheck": true,
         "strict": true,
         "allowJs": true,

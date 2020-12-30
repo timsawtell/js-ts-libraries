@@ -1,16 +1,17 @@
 {
     "compilerOptions": {
-        "outDir": "./build",
+        "outDir": "dist",
         "sourceMap": false,
         "noImplicitAny": true,
         "module": "commonjs",
-        "target": "es2018",
+        "target": "esnext",
         "jsx": "react",
-        "lib": ["es5", "es6", "dom"],
+        "lib": ["ESNext"],
         "skipLibCheck": true,
         "strict": true,
         "allowJs": true,
         "forceConsistentCasingInFileNames": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "declaration": true
     }
 }
