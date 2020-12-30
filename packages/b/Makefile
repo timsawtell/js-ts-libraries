@@ -6,7 +6,7 @@ compile:
 
 package: compile
 	rm -rf node_modules
-	# isntall only the production dependencies
+	# install only the production dependencies
 	yarn workspaces focus --production
 	cp -R node_modules dist
 	# build the docker image
