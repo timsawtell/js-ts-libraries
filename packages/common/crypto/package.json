@@ -3,11 +3,5 @@
     "version": "1.0.0",
     "main": "dist/index.js",
     "license": "MIT",
-    "types": "dist/index.d.ts",
-    "devDependencies": {
-        "@types/bcrypt": "^3.0.0"
-    },
-    "dependencies": {
-        "bcrypt": "^5.0.0"
-    }
+    "types": "dist/index.d.ts"
 }

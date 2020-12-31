@@ -1,5 +1,5 @@
-import {hash} from "bcrypt"
+import { createHash }  from "crypto"
 
 export async function hashInput(input: string): Promise<string> {
-    return hash(input, 0)
+    return createHash('sha256').update(input).digest('hex');
 }
