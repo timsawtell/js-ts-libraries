@@ -3,4 +3,4 @@ WORKDIR /usr/src/app
 COPY dist .
 EXPOSE 8080
 
-CMD ["node", "index.js"]
+CMD ["node", "workspace-b/src/index.js"]

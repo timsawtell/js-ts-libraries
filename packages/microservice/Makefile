@@ -10,7 +10,8 @@ package: compile
 	yarn workspaces focus --production
 	cp -R node_modules dist
 	# build the docker image
-	docker build -t b .
+	docker build -t microservice .
+	rm -rf dist
 	# install all the dev dependencies again (for convenience)
 	yarn 
 	

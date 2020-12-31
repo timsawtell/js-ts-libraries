@@ -1,14 +1,13 @@
 {
-    "name": "workspace-a",
+    "name": "common-express",
     "version": "1.0.0",
     "main": "dist/index.js",
     "license": "MIT",
     "types": "dist/index.d.ts",
-    "prepublish": "make build",
-    "scripts": {
-        "preinstall": "npx -p typescript tsc"
-    },
     "devDependencies": {
         "@types/express": "^4.17.9"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
     }
 }

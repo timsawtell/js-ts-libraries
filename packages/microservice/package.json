@@ -1,0 +1,10 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "common-express": "1.0.0"
+  }
+}
